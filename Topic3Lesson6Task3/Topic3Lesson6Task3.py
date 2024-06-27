@@ -7,4 +7,7 @@ while A <= B:
     if A%2 == 0:
        arr.append(A)
     A += 1
-print(arr)
+for i in arr:
+    print(i, ' ', end='')
+    i += 1
+print(" ")
